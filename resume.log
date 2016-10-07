@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 OCT 2016 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 OCT 2016 18:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -936,67 +936,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 64.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 63.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 64.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 63.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 64.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 63.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 64.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 63.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 64.
+(Font)              <10.95> on input line 63.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 64.
+(Font)              <8> on input line 63.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 64.
+(Font)              <6> on input line 63.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 71.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 63.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Overfull \hbox (0.98549pt too wide) in paragraph at lines 91--91
- [][][]\T1/lmss/m/n/10.95 (-20) array_collapse[][]|
+Underfull \hbox (badness 1019) in paragraph at lines 69--69
+[]\T1/lmss/m/n/10.95 (+20) "Core API" project: tran-si-tion away from shared mo
+d-els via gem to an
  []
 
 
-Overfull \hbox (5.91602pt too wide) in paragraph at lines 92--92
+Overfull \hbox (5.91602pt too wide) in paragraph at lines 83--83
  [][][]\T1/lmss/m/n/10.95 (-20) graph_function[][]|
  []
 
 
-Overfull \hbox (2.25597pt too wide) in paragraph at lines 93--93
+Overfull \hbox (0.98549pt too wide) in paragraph at lines 84--84
+ [][][]\T1/lmss/m/n/10.95 (-20) array_collapse[][]|
+ []
+
+
+Overfull \hbox (2.25597pt too wide) in paragraph at lines 85--85
  [][][]\T1/lmss/m/n/10.95 (-20) proc_compose[][]|
  []
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 116.
-
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 95.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 116.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 95.
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1007,11 +1012,6 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 1019) in paragraph at lines 116--116
-[]\T1/lmss/m/n/10.95 (+20) "Core API" project: tran-si-tion away from shared mo
-d-els via gem to an
- []
-
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
  Make it at least 50.31998pt.
@@ -1019,20 +1019,20 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 70E4CE637AC3C5A13451C14AF594D82E;748.
+(rerunfilecheck)             Checksum: DEDC571FC8B0C317AF5C2B81F5BE6D98;639.
  ) 
 Here is how much of TeX's memory you used:
- 26894 strings out of 493089
- 499784 string characters out of 6134842
+ 26904 strings out of 493089
+ 499898 string characters out of 6134842
  665580 words of memory out of 5000000
- 29973 multiletter control sequences out of 15000+600000
- 49667 words of font info for 55 fonts, out of 8000000 for 9000
+ 29972 multiletter control sequences out of 15000+600000
+ 50343 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,13n,60p,10358b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -1045,10 +1045,10 @@ sbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on resume.pdf (2 pages, 166666 bytes).
+Output written on resume.pdf (2 pages, 168578 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 17989 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 91 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 17981 words of extra memory for PDF output out of 20736 (max. 10000000)
 

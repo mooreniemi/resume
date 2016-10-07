@@ -56,22 +56,34 @@
 \makecvtitle % Print the CV title
 
 %----------------------------------------------------------------------------------------
-%	RECENT WORK SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Recent work}
-
-\cvitem {2016}{"workerbee" project. A JRuby gem wrapping a Java microservices framework (using RabbitMQ as ESB).}{}
-
-%----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 \section{Professional Experience}
 
-\cventry{2016 -- }{Software Developer}{\textsc{Raizlabs}}{Boston}{}{Software consultancy specializing in mobile apps.}
-\cventry{2014 -- 2016}{Software Engineer}{\textsc{Zipcar}}{Boston}{}{TDD in Ruby on Rails and some Java. Focus on API design, research in hypermedia and REST. On call and release engineer.}
-\cventry{2013 -- 2014}{Junior Software Engineer}{\textsc{PromoBoxx}}{Boston}{}{Test first and test last, but not test-driven, Ruby on Rails, and untested Javascript integration.}
+\cventry{2016 -- }{Software Developer}{\textsc{Raizlabs}}{Boston}{}{Building web APIs from scratch to serve custom built mobile apps.}
+
+\cventry{2014 -- 2016}{Software Engineer}{\textsc{Zipcar}}{Boston}{}{Focus on API design, research in hypermedia and REST. On call and release engineer.}
+\cvitem {2016}{"workerbee" project. A JRuby gem wrapping a Java microservices framework (using RabbitMQ as ESB).}{}
+\cvitem {2016}{"New platform" project: SOA implementation of microservices on PaaS via contributions to core inhouse framework and individual services. Mobile-first API design and implementation.}{}
+\cvitem {2015}{"Instant Drive" project: adding a new service and rebuilding parts of the core platform to support unlocking vehicles from our mobile phone app.}{}
+\cvitem {2015}{"Core API" project: transition away from shared models via gem to an ActiveResource-like pattern, loosening coupling to database. Preparatory work on monolithic architecture for decomposition into services.}{}
+\cvitem {2014}{"Pooling" project: extending "fleetsharing" with Avis cars while also improving vehicle availability. Required extensive redesign of original Zipcar data model, and was implemented as a Ruby on Rails API. Patented.}{}
+
+
+\cventry{2013 -- 2014}{Junior Software Engineer}{\textsc{PromoBoxx}}{Boston}{}{Development on front end and back end services in Ruby on Rails and Javascript integration.}
+
 \cventry{2012 -- 2013}{Marketing Automation}{\textsc{WorldOne Interactive}}{Boston}{}{Scripting and data analysis for the marketing team.}
+\cvitem {2012}{Used R for NLP to identify discussions in need of moderation. Patented use of NLP to identify physician discussions about pharmaceutical treatments.}{}
+
+%----------------------------------------------------------------------------------------
+%	OPEN SOURCE
+%----------------------------------------------------------------------------------------
+
+\section{Open Source}
+\cvitem{\href{https://github.com/mooreniemi/graph\_function}{graph\_function}}{a Ruby gem to generate graphs of asymptotic performance}
+\cvitem{\href{https://github.com/mooreniemi/array\_collapse}{array\_collapse}}{a Ruby C extension to add Array\#collapse, a method that allows blocks to be passed in to flatten}
+\cvitem{\href{https://github.com/mooreniemi/proc\_compose}{proc\_compose}}{a Ruby C extension to add Proc\#compose, a method for composing procs so that they can be passed in as a single block to any mapping operation}
+\cvitem{\href{https://github.com/mooreniemi/figtree}{figtree}}{a Ruby gem for parsing ini\_files using parslet DSL}
 
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS SECTION
@@ -84,22 +96,20 @@
 \cvitem{Practices}{TDD, SOA, Pair programming, Functional programming, Kanban, Scrum, Agile}
 
 %----------------------------------------------------------------------------------------
-%	OPEN SOURCE
-%----------------------------------------------------------------------------------------
-
-\section{Open Source}
-\cvitem{\href{https://github.com/mooreniemi/array\_collapse}{array\_collapse}}{a C extension to add Array\#collapse}
-\cvitem{\href{https://github.com/mooreniemi/graph\_function}{graph\_function}}{a Ruby gem to generate graphs of asymptotic performance}
-\cvitem{\href{https://github.com/mooreniemi/proc\_compose}{proc\_compose}}{a C extension to add Proc\#compose}
-\cvitem{\href{https://github.com/mooreniemi/figtree}{figtree}}{a Ruby gem for parsing ini\_files using parslet DSL}
-
-%----------------------------------------------------------------------------------------
 %	VOLUNTEER SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Volunteering}
 
-\cventry{2012 -- Now}{Transbucket.com}{Web Developer}{Migrated site from PHP to Ruby on Rails}{}{}
+\cventry{2012 -- Now}{Transbucket.com}{Web Developer}{Migrated site from PHP to Ruby on Rails and implemented many new features. The premiere site for transgender surgery photos, with 85k users (~1k active uniques per month)}{}{}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\cventry{2016}{Developer Testing: Building Quality into Software}{Addison-Wesley Signature Series}{}{A sidebar on how to think about types as a way of extending design by contract}{}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -109,11 +119,6 @@
 
 \cventry{2012}{Certificate: Computation and Algorithms}{MIT}{Boston}{}{}
 \cventry{2004--2009}{BFA Media Production}{Emerson College}{Boston}{Graduated with honors}{}
-
-\section{Work projects}
-
-\cvitem {2016}{"New platform" project: SOA implementation of microservices on PaaS via contributions to core inhouse framework and individual services. Mobile-first API design and implementation.}{}
-\cvitem {2015}{"Core API" project: transition away from shared models via gem to an ActiveResource-like pattern, loosening coupling to database. Preparatory work on monolithic architecture for decomposition into services.}{}
 
 %----------------------------------------------------------------------------------------
 %	COVER LETTER
