@@ -47,7 +47,6 @@
 \email{moore.niemi@gmail.com}
 \extrainfo{http://mooreniemi.github.io/}
 %\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-%\quote{"If you hear a voice within you say 'you cannot paint,' then by all means paint, and that voice will be silenced."  \newline -- Van Gogh, on incremental software delivery}
 
 %----------------------------------------------------------------------------------------
 
@@ -55,19 +54,37 @@
 
 \makecvtitle % Print the CV title
 
+\section{Objective}
+\cvitem{}{Gain experience with large scale distributed systems.}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Keywords}
+
+\cvitem{Fluent in}{Ruby}
+\cvitem{Proficient in}{Java, Groovy, Javascript, Haskell}
+\cvitem{Learning}{Go, C}
+\cvitem{Frameworks}{Rails, Grails, Sinatra, Node.js, Ember}
+\cvitem{Practices}{TDD, SOA, Pair programming, Functional programming, Kanban, Scrum, Agile}
+
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 \section{Professional Experience}
 
 \cventry{2016 -- }{Software Developer}{\textsc{Raizlabs}}{Boston}{}{Building web APIs from scratch to serve custom built mobile apps.}
+\cvitem {2016}{Increased test coverage of Node.js web API for DrinkLess app while implementing features such as comments. Comments implemented without using Sequelize's polymorphic relations.}{}
+\cvitem {2016}{Increased performance while reducing LOC on key indexing actions in Ruby on Rails web API for Pexi app project: from 800ms down to 250 ms. Check out \href{http://mooreniemi.github.io/2016/10/04/refactoring-away-from-statements-in-ruby.html}{my blog post "Refactoring away from statements in Ruby"} for a similar piece of refactoring that's open sourced.}{}
 
-\cventry{2014 -- 2016}{Software Engineer}{\textsc{Zipcar}}{Boston}{}{Focus on API design, research in hypermedia and REST. On call and release engineer.}
-\cvitem {2016}{"workerbee" project. A JRuby gem wrapping a Java microservices framework (using RabbitMQ as ESB).}{}
-\cvitem {2016}{"New platform" project: SOA implementation of microservices on PaaS via contributions to core inhouse framework and individual services. Mobile-first API design and implementation.}{}
-\cvitem {2015}{"Instant Drive" project: adding a new service and rebuilding parts of the core platform to support unlocking vehicles from our mobile phone app.}{}
-\cvitem {2015}{"Core API" project: transition away from shared models via gem to an ActiveResource-like pattern, loosening coupling to database. Preparatory work on monolithic architecture for decomposition into services.}{}
-\cvitem {2014}{"Pooling" project: extending "fleetsharing" with Avis cars while also improving vehicle availability. Required extensive redesign of original Zipcar data model, and was implemented as a Ruby on Rails API. Patented.}{}
+\cventry{2014 -- 2016}{Software Engineer}{\textsc{Zipcar}}{Boston}{}{Used Ruby and Java to build distributed systems with a REST architecture. On call and release engineer.}
+\cvitem {2016}{"workerbee" project: A JRuby gem wrapping a Java microservices framework (using RabbitMQ as ESB). Included a cli tool that made it extremely easy for devs to create and deploy new services that ran in Java, with a Java framework, but were written from the dev's perspective entirely in Ruby..}{}
+\cvitem {2016}{"Fleet API" project: An experimental API design exposing views rather than models. A surprising success that allowed both mobile and web frontends. I'm not convinced of it necessarily, but ask me about it--it's a unique case study.}{}
+\cvitem {2016}{"New platform" project: SOA implementation of microservices on Java/Go PaaS via contributions to core inhouse framework and individual services. Authored a User service and an i18n service (based on gettext), both in Java.}{}
+\cvitem {2015}{"Instant Drive" project: adding a new service and rebuilding parts of the core platform to support unlocking vehicles from our mobile phone app. Some work with Cassandra NoSQL, which taught me how not to use Cassandra.}{}
+\cvitem {2015}{"Core API" project: transition away from shared models via gem to an ActiveResource-like pattern, loosening coupling to database. Preparatory work on monolithic architecture for decomposition into services. Our goal was to improve CI experience for devs, and we succeeded.}{}
+\cvitem {2014}{"Pooling" project: extending "fleetsharing" with Avis cars while also improving vehicle availability. Required extensive redesign of original Zipcar data model, and was implemented as a Ruby on Rails API. A great example of tradeoffs in building a service instead of adding to a monolith.}{}
 
 
 \cventry{2013 -- 2014}{Junior Software Engineer}{\textsc{PromoBoxx}}{Boston}{}{Development on front end and back end services in Ruby on Rails and Javascript integration.}
@@ -82,18 +99,9 @@
 \section{Open Source}
 \cvitem{\href{https://github.com/mooreniemi/graph\_function}{graph\_function}}{a Ruby gem to generate graphs of asymptotic performance}
 \cvitem{\href{https://github.com/mooreniemi/array\_collapse}{array\_collapse}}{a Ruby C extension to add Array\#collapse, a method that allows blocks to be passed in to flatten}
-\cvitem{\href{https://github.com/mooreniemi/proc\_compose}{proc\_compose}}{a Ruby C extension to add Proc\#compose, a method for composing procs so that they can be passed in as a single block to any mapping operation}
+\cvitem{\href{https://github.com/mooreniemi/proc\_compose}{proc\_compose}}{a Ruby C extension to add Proc\#compose (until it is added to Ruby core, which is on its way), a method for composing procs so that they can be passed in as a single block to any mapping operation}
 \cvitem{\href{https://github.com/mooreniemi/figtree}{figtree}}{a Ruby gem for parsing ini\_files using parslet DSL}
 
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Keywords}
-
-\cvitem{Languages}{Ruby, Java, Groovy, Javascript, Swift, Haskell}
-\cvitem{Frameworks}{Rails, Grails, Sinatra, Backbone, Jekyll, Yesod}
-\cvitem{Practices}{TDD, SOA, Pair programming, Functional programming, Kanban, Scrum, Agile}
 
 %----------------------------------------------------------------------------------------
 %	VOLUNTEER SECTION
@@ -101,7 +109,7 @@
 
 \section{Volunteering}
 
-\cventry{2012 -- Now}{Transbucket.com}{Web Developer}{Migrated site from PHP to Ruby on Rails and implemented many new features. The premiere site for transgender surgery photos, with 85k users (~1k active uniques per month)}{}{}
+\cventry{2012 -- Now}{Transbucket.com}{Web Developer}{Migrated site from PHP to Ruby on Rails and implemented many new features. The premiere site for transgender surgery photos, with 90k users (~1k active uniques per month)}{}{}
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATION SECTION
