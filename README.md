@@ -1,16 +1,7 @@
-# Alex Moore - Niemi
+# resume
 
-Recent work
-===========
+Output markdown after running `TeX4ht`:
 
-Professional Experience
-=======================
-
-Keywords
-========
-
-Volunteering
-============
-
-Education
-=========
+```sh
+pandoc resume.html -o resume.md
+```
