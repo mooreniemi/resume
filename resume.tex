@@ -25,11 +25,10 @@
 
 \documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-\usepackage[scale=0.75]{geometry} % Reduce document margins
+\usepackage[scale=0.80]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
@@ -64,26 +63,25 @@
 \section{Keywords}
 
 \cvitem{Fluent in}{Ruby}
-\cvitem{Proficient in}{Javascript, Groovy, Java, Haskell}
+\cvitem{Proficient in}{Javascript, Java, Groovy, Haskell}
 \cvitem{Learning}{Go, Rust}
 \cvitem{Frameworks}{Ruby on Rails, Grails, Sinatra, Node.js, Ember}
-\cvitem{Practices}{TDD, SOA, Pair programming, Functional programming, Kanban, Scrum, Agile}
+\cvitem{Practices}{TDD, SOA, Microservices, Serverless, Pair programming, Functional programming, Kanban, Scrum, Agile}
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------------------------d--------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 \section{Professional Experience}
 
 \cventry{2016 -- }{Software Developer}{\textsc{Raizlabs}}{Boston}{}{Building web APIs to serve custom built mobile apps.}
 \cvitem {2017}{Backend for frontend in Rails, coalescing highly normalized REST API with a SOAP API and a Postgres database, serving iOS and Android apps used by nurses across the US.}{}
-\cvitem {2016-2017}{Node.js and Ember mobile web app for helping users drink less alcohol.}{}
-\cvitem {2017}{Serverless backend (AWS Lambda, API Gateway, Cloudfront, S3) supporting the 2nd most popular rich media iOS app in China.}{}
+\cvitem {2017}{Serverless backend (AWS Lambda, API Gateway, SES, Cloudfront, S3) supporting the 2nd most popular rich media iOS app in China.}{}
 \cvitem {2016-2017}{Node.js and Ember mobile web app that helps users drink less alcohol by community and coaching tools.}{}
-\cvitem {2016}{Increased performance while reducing LOC on key indexing actions in Rails web API for healthcare app: from 800ms down to 250 ms. Check out \href{http://mooreniemi.github.io/2016/10/04/refactoring-away-from-statements-in-ruby.html}{my blog post "Refactoring away from statements in Ruby"} for a similar piece of refactoring that's open sourced.}{}
+\cvitem {2016}{Rails API for iOS healthcare app. Increased performance while reducing LOC on key indexing actions from 800ms down to 250 ms. Check out \href{http://mooreniemi.github.io/2016/10/04/refactoring-away-from-statements-in-ruby.html}{my blog post "Refactoring away from statements in Ruby"} for a similar piece of refactoring that's open sourced.}{}
 
 \cventry{2014 -- 2016}{Software Engineer}{\textsc{Zipcar}}{Boston}{}{Used Ruby and Java to build distributed systems with a REST architecture. On call and release engineer.}
 \cvitem {2016}{"workerbee" project: A JRuby gem wrapping a Java microservices framework (using RabbitMQ as ESB). Included a cli tool that made it extremely easy for devs to create and deploy new services that ran in Java, with a Java framework, but were written from the dev's perspective entirely in Ruby..}{}
-\cvitem {2016}{"Fleet API" project: An experimental API design exposing views rather than models. A surprising success that allowed both mobile and web frontends. I'm not convinced of it necessarily, but ask me about it--it's a unique case study.}{}
+\cvitem {2016}{"Fleet API" project: An experimental API design exposing views rather than models. A surprising success that allowed both mobile and web frontends. Not appropriate for all cases, but ask me about it--it's a unique case study.}{}
 \cvitem {2016}{"New platform" project: SOA implementation of microservices on Java/Go PaaS via contributions to core inhouse framework and individual services. Authored a User service and an i18n service (based on gettext), both in Java.}{}
 \cvitem {2015}{"Instant Drive" project: adding a new service and rebuilding parts of the core platform to support unlocking vehicles from our mobile phone app. Some work with Cassandra NoSQL, which taught me how not to use Cassandra.}{}
 \cvitem {2015}{"Core API" project: transition away from shared models via gem to an ActiveResource-like pattern, loosening coupling to database. Preparatory work on monolithic architecture for decomposition into services. Our goal was to improve CI experience for devs, and we succeeded.}{}
@@ -101,18 +99,9 @@
 
 \section{Open Source}
 \cvitem{\href{https://github.com/mooreniemi/graph\_function}{graph\_function}}{a Ruby gem to generate graphs of asymptotic performance}
-\cvitem{\href{https://github.com/mooreniemi/array\_collapse}{array\_collapse}}{a Ruby C extension to add Array\#collapse, a method that allows blocks to be passed in to flatten}
+\cvitem{\href{https://github.com/mooreniemi/array\_collapse}{array\_collapse}}{a Ruby C extension to add Array\#collapse, a method that allows blocks to be passed in to flatten, improving asymptotic performance by "piggy-backing" on traversal}
 \cvitem{\href{https://github.com/mooreniemi/proc\_compose}{proc\_compose}}{a Ruby C extension to add Proc\#compose (until it is added to Ruby core, which is on its way), a method for composing procs so that they can be passed in as a single block to any mapping operation}
 \cvitem{\href{https://github.com/mooreniemi/figtree}{figtree}}{a Ruby gem for parsing ini\_files using parslet DSL}
-
-
-%----------------------------------------------------------------------------------------
-%	VOLUNTEER SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Volunteering}
-
-\cventry{2012 -- Now}{Transbucket.com}{Web Developer}{Migrated site from PHP to Ruby on Rails and implemented many new features. The premiere site for transgender surgery photos, with 90k users (~1k active uniques per month)}{}{}
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATION SECTION
@@ -123,6 +112,14 @@
 \cventry{2016}{Developer Testing: Building Quality into Software}{Addison-Wesley Signature Series}{}{A sidebar on how to think about types as a way of extending design by contract}{}
 
 %----------------------------------------------------------------------------------------
+%	VOLUNTEER SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Volunteering}
+
+\cventry{2012 -- Now}{Transbucket.com}{Web Developer}{Migrated site from PHP to Ruby on Rails and implemented many new features. The premiere site for transgender surgery photos, with 90k users (1k active uniques per month)}{}{}
+
+%---------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
