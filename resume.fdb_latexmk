@@ -1,0 +1,14 @@
+# Fdb version 4
+["pdflatex"] 1736260237.277 "/Users/alex/Code/resume/resume.tex" "resume.pdf" "resume" 1736260237.30612 2
+  "/Users/alex/Code/resume/resume.tex" 1736260236.8957 8736 3ac41bbc6d4306e2ed4dea46b0b2561e ""
+  "/Users/alex/Library/TinyTeX/texmf-dist/web2c/texmf.cnf" 1727217670 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
+  "/Users/alex/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1736219810 1921675 91259613862228ad5ef8b73b78c8e06f ""
+  "/Users/alex/Library/TinyTeX/texmf.cnf" 1736219752 637 edd806fb06a89761a6034e1968af9017 ""
+  "moderncv.cls" 0 -1 0 ""
+  "resume.aux" 0 -1 0 "pdflatex"
+  "resume.tex" 1736260236.8957 8736 3ac41bbc6d4306e2ed4dea46b0b2561e ""
+  (generated)
+  "resume.aux"
+  "resume.log"
+  "resume.pdf"
+  (rewritten before read)

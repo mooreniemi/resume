@@ -1,0 +1,6 @@
+PWD /Users/alex/Code/resume
+INPUT /Users/alex/Library/TinyTeX/texmf.cnf
+INPUT /Users/alex/Library/TinyTeX/texmf-dist/web2c/texmf.cnf
+INPUT /Users/alex/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/alex/Code/resume/resume.tex
+OUTPUT resume.log
