@@ -22,19 +22,22 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
 \documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
 
 \moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage[scale=0.80]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+%\setlength{\makecvtitlenamewidth}{6cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
+
+%\renewcommand*{\namefont}{\fontsize{16}{12}\mdseries\upshape}
 
 \firstname{Alexander} % Your first name
 \familyname{Moore-Niemi} % Your last name
@@ -62,9 +65,9 @@
 
 \section{Keywords}
 
-\cvitem{Languages}{Rust, Python, Java, Ruby, Typescript}
-\cvitem{Tech}{Faiss, Elasticsearch, Lucene, Unix, AWS, Spark, Kubernetes}
-\cvitem{Domains}{Search, Big Data, NLP, Observability}
+%\cvitem{Languages}{Rust, Python, Java, Ruby, Typescript}
+\cvitem{}{Rust, Python, Faiss, Elasticsearch, Lucene, Unix, AWS, Spark, Kubernetes}
+%\cvitem{Domains}{Search, Big Data, NLP, Observability}
 
 %--------------------------------------------------------d--------------------------------
 %	WORK EXPERIENCE SECTION
@@ -72,24 +75,24 @@
 \section{Professional Experience}
 \cventry{2021 --}{Senior Software Engineer III}{\textsc{Amazon}}{Boston}{}{Lead engineer on Web search for AGI. Billions-scale fully neural search engine.}
 \cvitem {2024}{Rewrote internal engine code to support per-document mutability and improve time-sensitive recall}{}
-\cvitem {2024}{Led scaling of index into 10b+ range across online, offline, and control plane}{}
+\cvitem {2024}{Led scaling of index into tens of billions range across online, offline, and control plane}{}
 \cvitem {2023}{Training data pipeline lead; scaled data and training compute to double recall}{}
 \cvitem {2022}{Launch of ANN indices in Eureka to serve dense and hybrid retrieval}{}
 \cvitem {2021}{Launch of "Eureka," custom Rust search engine on Amazon ECS, led operational readiness and security review. Scaled team from 2 people to 20.}{}
 \cventry{2017 -- 2021}{Software Engineer II}{\textsc{Amazon}}{Boston}{}{}
 \cvitem {2021}{Implementation of CloudAuth (Amazon internal distributed OAuth protocol) client in Rust, used by dozens of internal teams as of 2025}{}
-\cvitem {2020}{Work with Applied Scientist on port of PISA cpp library into Rust with deployment on Amazon EKS (Kubernetes) as foundation of custom search engine}{}
-\cvitem {2020}{Work with Applied Scientist on spam filtering pipeline. Presented paper on spam filtering in AMLC (Amazon Machine-Learning Conference), 2nd author.}{}
-\cvitem {2020}{Used custom "hyper-parameter tuning" to cut cost  (millions of dollars per year) of Elasticsearch infrastructure while improving performance; enabled us to quadruple index size.}{}
+\cvitem {2020}{Paired with Applied Scientist on port of PISA cpp library into Rust with deployment on Amazon EKS (Kubernetes) as foundation of custom search engine}{}
+\cvitem {2020}{Paired with Applied Scientist on spam filtering pipeline. Presented paper on spam filtering in AMLC (Amazon Machine-Learning Conference), 2nd author.}{}
+\cvitem {2020}{Used custom "hyper-parameter tuning" to cut cost (millions of dollars per year) of Elasticsearch infrastructure while improving performance; enabled us to quadruple index size.}{}
 \cvitem {2020}{Spark infrastructure for indexing hundreds of millions of documents.}{}
 \cvitem {2017 -- 2019}{Work on configurable DAG of RPC services in Java and Python, serving 1000-10,000 TPS.}{}
 
 \cventry{2016 -- 2017}{Software Developer}{\textsc{Raizlabs}}{Boston}{}{Consultancy. Building scalable, performant cloud REST APIs to serve iOS apps.}
 
 \cventry{2014 -- 2016}{Software Engineer}{\textsc{Zipcar}}{Boston}{}{Building Ruby and Java services. On call and release engineer.}
-\cvitem {2016}{Contributed microservices in Java/Go during rewrite using inhouse SOA framework.}{}
-\cvitem {2015}{Work on core platform to support secure vehicle mobile unlock.}{}
-\cvitem {2014}{"Fleetsharing" with Avis cars while also improving vehicle availability.}{}
+\cvitem {2016}{User and authorization service}{}
+\cvitem {2015}{Secure mobile vehicle unlock}{}
+\cvitem {2014}{"Fleetsharing" with Avis cars while also improving vehicle availability}{}
 
 
 %\cventry{2013 -- 2014}{Junior Software Engineer}{\textsc{PromoBoxx}}{Boston}{}{Development on front end and back end services in Ruby on Rails and Javascript integration.}
